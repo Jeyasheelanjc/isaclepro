@@ -80,7 +80,7 @@ header .nav-link:hover {
     width: 350px !important;
     content: "";
     display: block;
-    margin: 20px 0 -5px;
+    margin: 30px 0 -5px;
 }
 
 .price .link::after {
@@ -571,6 +571,9 @@ footer p {
     .same .card {
         height: 640px;
     }
+    .tablist a{
+        margin-top: 30px !important;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -597,4 +600,15 @@ footer p {
     .pricecard li {
         /* justify-content: center; */
     }
+    .tablist a{
+        margin-top: 30px !important;
+    }
 }
+
+
+
+
+
+
+
+
