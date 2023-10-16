@@ -403,6 +403,24 @@ footer p {
     width: 80px;
     margin: 0 0px 10px 5px;
 }
+.contact h2:before {
+    display: inline-block;
+    content: "";
+    background: var(--red);
+    height: 2px;
+    width: 70px;
+    margin: 0 5px 10px 0px;
+}
+
+.contact h2::after {
+    display: inline-block;
+    content: "";
+    background: var(--red);
+    height: 2px;
+    width: 80px;
+    margin: 0 0px 10px 5px;
+}
+
 
 .price h2:before {
     display: inline-block;
