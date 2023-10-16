@@ -568,6 +568,9 @@ footer p {
         width: 50px !important;
         margin: 0 0px 5px px;
     }
+    .same .card {
+        height: 640px;
+    }
 }
 
 @media screen and (max-width:768px) {
